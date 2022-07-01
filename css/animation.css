@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+@keyframes zoom2 {
+    from {transform: scaleY(0.1)} 
+    to {transform: scaleY(1)}
+}
+/*边框闪光*/
+@keyframes trry1 {
+	  from {
+		box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.1);
+	  }
+	  to {
+		box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes trry2 {
+	  from {
+		box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.1);
+	  }
+	  to {
+		box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5);
+
+
+  }
+}
+
+
+@keyframes lightT2 {
+	  from {
+		box-shadow: 0 0 1.5px 2.5px rgba(255, 255, 255, 0.1);
+	  }
+	  to {
+		box-shadow: 0 0 1.5px 2.5px rgba(255, 255, 255, 0.3);
+  }
+}
+
+@-webkit-keyframes opchange {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes opchangess {
+    from {opacity: 0;} 
+    to {opacity: 0.9;}
+}
+
+@-webkit-keyframes rotate1{
+    from {transform: rotate(0deg)} 
+    to {transform: rotate(360deg)}
+}
+
+@-webkit-keyframes rotate2{
+    from {transform: rotateX(0deg)} 
+    to {transform: rotateX(360deg)}
+}
+
+@-webkit-keyframes rotate3{
+    from {transform: rotateY(0deg)} 
+    to {transform: rotateY(360deg)}
+}
+
+@-webkit-keyframes rotate4{
+    from {transform: rotateZ(0deg)} 
+    to {transform: rotateZ(360deg)}
+}
+
+@-webkit-keyframes rotate5{
+    from {transform: skew(90deg,90deg)} 
+    to {transform: skew(0deg,0deg)}
+}	
+
+@-webkit-keyframes rotate6{
+    from {transform: skewX(90deg)} 
+    to {transform: skewX(0deg)}
+}
+
+@-webkit-keyframes rotate7{
+    from {transform: skewY(90deg)} 
+    to {transform: skewY(0deg)}
+}	
+
+
+@-webkit-keyframes neon2s {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+ 
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+
+  }
+}
+
+@-moz-keyframes neon2s {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+    
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+     
+  }
+}
+
+
+@keyframes neon2s {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #228DFF,
+               0 0 70px  #228DFF,
+               0 0 80px  #228DFF,
+               0 0 100px #228DFF,
+  
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+   
+  }
+}
+
+@-webkit-keyframes neon0 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+
+@-moz-keyframes neon0 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+
+@keyframes neon0 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #fff,
+               0 0 70px  #fff,
+               0 0 80px  #fff,
+               0 0 100px #fff,
+               0 0 150px #fff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #fff,
+               0 0 35px #fff,
+               0 0 40px #fff,
+               0 0 50px #fff,
+               0 0 75px #fff;
+  }
+}
+/*斩*/
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF0000,
+               0 0 70px  #FF0000,
+               0 0 80px  #FF0000,
+               0 0 100px #FF0000,
+               0 0 150px #FF0000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF0000,
+               0 0 35px #FF0000,
+               0 0 40px #FF0000,
+               0 0 50px #FF0000,
+               0 0 75px #FF0000;
+  }
+}

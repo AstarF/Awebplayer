@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: edelsans;
+	src: url(../font/edelsans/edelsans_regular.otf);
+}
+
+@font-face{
+	font-family: edelsans2;
+	src:url(../font/edelsans/edelsans_ultralight.otf);
+}
+
+@font-face{
+	font-family: dragon;
+	src:url(  ../font/font1196/dragon.otf);
+}
+
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+}

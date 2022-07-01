@@ -1,0 +1,1015 @@
+﻿@charset "utf-8";
+/*CSS Document*/ 
+body {
+	transition: 1s;
+}
+.playerwin {
+	border-color: rgba(199,199,199,0.800);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.100);
+	position: fixed;
+	width: 295px;
+	height: 115px;
+	padding: 10;
+	padding-left: 10;
+	border-radius: 20px;
+	background-color: rgba(199,199,199,0.050);
+	animation: trry1 2.0s ease-in-out infinite alternate;
+}
+.listbutton {
+	position: fixed;
+	/*	display: inline-block; */
+	width: 30px;
+	height: 30px;
+	margin-top: 66px;
+	margin-left: 5px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url( ../picture/lists_icons.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.listbutton:hover {
+	opacity: 0.7;
+	background-image: url( ../picture/lists_icons-1.png);
+}
+.listbutton:hover .songlist {
+	display: block;
+}
+.songlist {
+	border-style: ridge;
+	border-color: rgba(199,199,199,0.800);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.300);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.300);
+	margin-top: 30px;
+	width: 200px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: 800;
+	transition: 0.3s;
+	animation: opchange 1.0s;
+	display: none;
+	font-family: edelsans;
+}
+.last {
+	position: fixed;
+	/*	display: inline-block; */
+	width: 30px;
+	height: 30px;
+	margin: 12px;
+	margin-left: 65px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url(../picture/last.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+}
+.last:hover {
+	opacity: 0.7;
+	background-image: url(../picture/last-1.png);
+}
+.last:active {
+	opacity: 1;
+}
+.play {
+	position: fixed;
+	/*	display: inline-block; */
+		
+	width: 30px;
+	height: 30px;
+	margin: 12px;
+	margin-left: 113px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url(../picture/play.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+}
+.play:hover {
+	opacity: 0.7;
+	background-image: url(../picture/play-1.png);
+}
+.play:active {
+	opacity: 1;
+}
+.pause {
+	position: fixed;
+	/*	display: inline-block; */
+		
+	width: 30px;
+	height: 30px;
+	margin: 12px;
+	margin-left: 113px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url(../picture/pause.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+}
+.pause:hover {
+	opacity: 0.7;
+	background-image: url(../picture/pause-1.png);
+}
+.pause:active {
+	opacity: 1;
+}
+.next {
+	position: fixed;
+	/*	display: inline-block; */
+		
+	width: 30px;
+	height: 30px;
+	margin: 12px;
+	margin-left: 160px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url(../picture/next.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+}
+.next:hover {
+	opacity: 0.7;
+	background-image: url(../picture/next-1.png);
+}
+.next:active {
+	opacity: 1;
+}
+.playmode {
+	position: fixed;
+	/*	display: inline-block; */
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+	margin-top: 20px;
+	margin-left: 205px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url( ../picture/changemode2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+}
+.playmode:hover {
+	opacity: 0.7;
+	background-image: url(../picture/changemode2-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.playmode:active {
+	opacity: 1;
+}
+.playmode2 {
+	background-image: url( ../picture/changemode1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.playmode2:hover {
+	opacity: 0.7;
+	background-image: url(../picture/changemode1-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.playmode2:active {
+	opacity: 1;
+}
+.playmode3 {
+	background-image: url( ../picture/changemode3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.playmode3:hover {
+	opacity: 0.7;
+	background-image: url(../picture/changemode3-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.playmode3:active {
+	opacity: 1;
+}
+.voice {
+	position: fixed;
+	/*	display: inline-block; */
+	width: 25px;
+	height: 25px;
+	margin-top: 18px;
+	margin-left: 245px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url( ../picture/voice_icons.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.6;
+}
+/*版本一
+
+.voicebar{
+	border-radius: 10px;
+	background-color: white;
+	height: 5px;
+	width: 80px;
+	margin-top: 15px;
+
+}
+.voicebarc{
+	position: absolute;
+	border-radius: 50%;
+	background-color:red;
+	height: 15px;
+	width: 15px;
+	margin-top: -5px;
+    -webkit-transition:0.2s ;
+    transition:0.2s;
+	left: 0px;
+}
+
+.voicefill{
+	position: absolute;
+	border-radius: 10px;
+	background-color: deepskyblue;
+	height: 5px;
+	width: 0px;
+	margin-top: 0px;
+	-webkit-transition: 0.2s;
+    transition: 0.2s;
+	left:0px;
+	
+}
+
+
+*/
+
+/*版本二*/
+input[type=range][class=voicebar] {
+	-webkit-appearance: none;
+	width: 60px;
+	border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+}
+input[type=range][class=voicebar]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+}
+ input[type=range][class=voicebar]::-webkit-slider-runnable-track {
+ height: 10px;
+ border-radius: 10px; /*将轨道设为圆角的*/
+}
+input[type=range][class=voicebar]:focus {
+	outline: none;
+}
+ input[type=range][class=voicebar]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ height: 15px;
+ width: 15px;
+ margin-top: -3px; /*使滑块超出轨道部分的偏移量相等*/
+ background: rgba(255, 255, 255, 0.8);
+ border-radius: 50%; /*外观设置为圆形*/
+ border: solid 0.125em rgba(205, 224, 230, 0.5); /*设置边框*/
+}
+.voicebar {
+	margin: 10px;
+	margin-left: 20px;
+	display: none;
+	background-color: rgba(255,255,255,0.43);
+}
+.voice:hover {
+	opacity: 0.7;
+	background-image: url(../picture/voice_icons-1.png);
+}
+.voice:hover .voicebar {
+	display: block;
+}
+input[type=range][class=mbar] {
+	-webkit-appearance: none;
+	width: 200px;
+	border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+}
+input[type=range][class=mbar]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+}
+ input[type=range][class=mbar]::-webkit-slider-runnable-track {
+ height: 3px;
+ border-radius: 10px; /*将轨道设为圆角的*/
+ background-color:transparent;
+}
+input[type=range][class=mbar]:focus {
+	outline: none;
+}
+ input[type=range][class=mbar]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ height: 8px;
+ width: 8px;
+ margin-top: -3px; /*使滑块超出轨道部分的偏移量相等*/
+ background: #ffffff;
+ border-radius: 50%; /*外观设置为圆形*/
+ border: solid 0.125em rgba(205, 224, 230, 0.5); /*设置边框*/
+/* box-shadow: 0 .125em .125em #3b4547; /*添加底部阴影*/
+}
+
+
+/*Edge兼容*/
+input[type=range][class=mbar] {
+    -webkit-appearance: none;
+    width: 200px;
+	 height: 3px;
+    border-radius: 10px;
+	
+}
+
+input[type=range][class=mbar]::-ms-track {
+    height: 0.1px;
+    border-radius: 1px;
+    border-color: transparent; /*去除原有边框*/
+    color: transparent; /*去除轨道内的竖线*/
+}
+
+input[type=range][class=mbar]::-ms-thumb {
+    border: solid 0.125em rgba(205, 224, 230, 0.5);
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-top: -5px;
+}
+
+input[type=range][class=mbar]::-ms-fill-lower {
+    /*进度条已填充的部分*/
+    height: 22px;
+    border-radius: 10px;
+	background-color:rgba(255,255,255,0.51);;
+   /* background: linear-gradient(to right, #059CFA, white 100%, white);*/
+}
+
+input[type=range][class=mbar]::-ms-fill-upper {
+    /*进度条未填充的部分*/
+    height: 22px;
+    border-radius: 10px;
+    background:rgba(255,255,255,0.51);;
+	
+}
+
+input[type=range][class=mbar]:focus::-ms-fill-lower {
+    background: rgba(255,255,255,0.51);
+}
+
+input[type=range][class=mbar]:focus::-ms-fill-upper {
+    background: rgba(255,255,255,0.51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sname {
+	margin-left: 50px;
+	margin-top: -55px;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+	font-weight: 500;
+	font-size: 18px;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-animation: neon0 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon0 1.5s ease-in-out infinite alternate;
+	animation: neon01 1.5s ease-in-out infinite alternate;
+	opacity: 0.8;
+}
+.mbar {
+	margin-left: 50px;
+	margin-top: 80px;
+	background-color: rgba(255,255,255,0.6);
+	animation: trry1 2.0s ease-in-out infinite alternate;/*background-color: transparent;*/
+	 
+}
+.ctime {
+	margin-left: 110px;
+	margin-top: 0px;
+	width: 80px;
+	height: 20px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+	font-weight: 500;
+	font-size: 18px;
+	-webkit-animation: neon0 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon0 1.5s ease-in-out infinite alternate;
+	animation: neon0 1.5s ease-in-out infinite alternate;
+}
+.changebg {
+	position: fixed;
+	/*	display: inline-block; */
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+	margin-top: -55px;
+	margin-left: 19px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url( ../picture/bgchange.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+}
+.changebg1 {
+	position: fixed;
+	/*	display: inline-block; */
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+	margin-top: -55px;
+	margin-left: 19px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url( ../picture/bgchange-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.7;
+}
+.changebg:hover {
+	opacity: 0.7;
+	background-image: url( ../picture/bgchange-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.songli {
+	display: block;
+	margin-left: -40px;
+	padding: 6px;
+	padding-left: 28px;
+	font-size: 15px;
+	list-style-type: none;
+	text-align: left;
+	width: 200%;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.songli:hover, .songli:visited {
+	width: 100%;
+	color: white;
+	-webkit-animation: neon0 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon0 1.5s ease-in-out infinite alternate;
+	animation: neon0 1.5s ease-in-out infinite alternate;
+}
+.songli:active {
+	color: white;
+	-webkit-animation: neon0 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon0 1.5s ease-in-out infinite alternate;
+	animation: neon0 1.5s ease-in-out infinite alternate;
+}
+.songcu {
+	color: white;
+	-webkit-animation: neon0 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon0 1.5s ease-in-out infinite alternate;
+	animation: neon0 1.5s ease-in-out infinite alternate;
+}
+.bgdiv {
+	position: absolute;
+	z-index: -1;
+	width: 100.3%;
+	height: 100.5%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-left: -13px;
+	margin-top: -13px;
+	padding: 0px;
+	transition: 2.0s;
+}
+.bgdivs {
+	position: absolute;
+	z-index: -1;
+	width: 100.3%;
+	height: 100.5%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-left: -13px;
+	margin-top: -13px;
+	padding: 0px;
+	transition: 2.0s;
+}
+.bgdivss {
+	position: absolute;
+	z-index: -1;
+	width: 100.3%;
+	height: 100.5%;
+	background-color: #4B4B4B;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-left: -13px;
+	margin-top: -13px;
+	padding: 0px;
+	transition: 1.0s;
+	animation: opchangess 2.0s;
+	opacity: 0.9;
+	display: none;
+}
+.bgdiv1 {
+	transition: 1s;
+	animation: opchange 2.0s;
+}
+.bgdiv2 {
+	transition: 1s;
+	animation: zoom 2.0s;
+}
+.bgdiv3 {
+	transition: 1s;
+	animation: rotate1 2.0s;
+}
+.bgdiv4 {
+	transition: 1s;
+	animation: rotate2 2.0s;
+}
+.bgdiv5 {
+	transition: 1s;
+	animation: opchange 2.0s;
+}
+.bgdiv6 {
+	transition: 1s;
+	animation: rotate3 2.0s;
+}
+.bgdiv7 {
+	transition: 1s;
+	animation: rotate7 2.0s;
+}
+.bgdiv8 {
+	transition: 1s;
+	animation: rotate4 2.0s;
+}
+.bgdiv9 {
+	transition: 1s;
+	animation: rotate5 2.0s;
+}
+.bgdiv10 {
+	transition: 1s;
+	animation: rotate6 2.0s;
+}
+/*设置*/
+
+.option {
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	margin-top: -5px;
+	margin-left: 260px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background-image: url( ../picture/lists_icons.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.option:hover {
+	opacity: 0.7;
+	background-image: url( ../picture/lists_icons-1.png);
+}
+.option:hover .optionlist {
+	display: block;
+}
+.optionlist {
+	border-color: rgba(199,199,199,0.800);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.300);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.300);
+	margin-top: 23px;
+	width: 100px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	font-weight: 800;
+	font-size: 15px;
+	transition: 0.3s;
+	animation: opchange 1.0s;
+	display: none;
+	padding-bottom: 10px;
+}
+.options {
+	border-radius: 20px;
+	margin: 0px;
+	display: block;
+	list-style-type: none;
+	padding-top: 10px;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.options:hover {
+	background-color: rgba(255,255,255,0.45);
+}
+.options:hover .themelist {
+	display: block;
+}
+.themelist {
+	border-color: rgba(199,199,199,0.800);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.300);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.300);
+	margin-top: -40px;
+	margin-left: 100px;
+	width: 100px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	font-weight: 800;
+	transition: 0.3s;
+	animation: opchange 1.0s;
+	display: none;
+	padding-bottom: 10px;
+}
+.themes {
+	border-radius: 20px;
+	margin: 0px;
+	display: block;
+	list-style-type: none;
+	padding-top: 10px;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+/*主题二*/
+
+.playerwinTxx {
+	border-color: rgba(199,199,199,0.100);
+	background: -webkit-linear-gradient( right, rgba(255,0,0,0.5), rgba(255,255,255,0.7), rgba(0,116,255,0.50));
+	; /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient( right, rgba(255,0,0,0.5), rgba(255,255,255,0.7), rgba(0,116,255,0.50));
+	; /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient( right, rgba(255,0,0,0.5), rgba(255,255,255,0.7), rgba(0,116,255,0.50));
+	; /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,255,255,0.7), rgba(0,116,255,0.50));
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.100);
+	position: fixed;
+	width: 295px;
+	height: 115px;
+	padding: 10;
+	padding-left: 10;
+	border-radius: 20px;
+	animation: trry2 2.0s ease-in-out infinite alternate;
+}
+.playerwinT2 {
+	background-image: url(../picture/T2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-left: 60px;
+	padding-top: 40px;
+	height: 130px;
+	width: 260px;
+	font-family: 楷体;
+	color: white;
+	border-style: none;
+	opacity: 0.7;
+	transition: 0.3s;
+	background-color: rgba(255,255,255,0.0);
+	animation: none;
+}
+.playerwinT2:hover {
+	opacity: 0.9;
+	background-image: url(../picture/T2.png);
+}
+
+.playerwinT2:hover .voiceT2{
+	display: block;
+}
+
+.playerwinT2:hover .optionT2{
+	display: block;
+}
+
+.playerwinT2:hover .playmodeT2 {
+	display: block;
+}
+
+.mbarT2 {
+	margin-top: 130px;
+	margin-left: -60px;
+	background-color: rgba(255,255,255,0.5);
+	animation: lightT2 1s ease-in-out infinite alternate;
+}
+input[type=range][class=mbarT2] {
+	-webkit-appearance: none;
+	width: 280px;
+	border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+}
+input[type=range][class=mbarT2]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+}
+ input[type=range][class=mbarT2]::-webkit-slider-runnable-track {
+ height:3px;
+ border-radius: 10px; /*将轨道设为圆角的*/
+ background-color:transparent;
+}
+
+
+input[type=range][class=mbarT2]:focus {
+	outline: none;
+}
+ input[type=range][class=mbarT2]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ height: 80px;
+ width: 25px;
+ margin-top: -50px; /*使滑块超出轨道部分的偏移量相等*/
+ background-image:url(../picture/light.png);
+ background-size: contain;
+ background-color: rgba(0,0,0,0);
+ border-radius: 0px; /*外观设置为圆形*/
+ border: none; /*设置边框*/
+}
+
+
+/*Edge兼容*/
+input[type=range][class=mbarT2] {
+    -webkit-appearance: none;
+    width: 300px;
+	 height: 3px;
+    border-radius: 10px;
+	
+}
+
+input[type=range][class=mbarT2]::-ms-track {
+    height: 0.1px;
+    border-radius: 1px;
+    border-color: transparent; /*去除原有边框*/
+    color: transparent; /*去除轨道内的竖线*/
+}
+
+input[type=range][class=mbarT2]::-ms-thumb {
+    border: solid 0.125em rgba(205, 224, 230, 0.5);
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-top: -5px;
+}
+
+input[type=range][class=mbarT2]::-ms-fill-lower {
+    /*进度条已填充的部分*/
+    height: 22px;
+    border-radius: 10px;
+	background-color:rgba(255,255,255,0.51);;
+   /* background: linear-gradient(to right, #059CFA, white 100%, white);*/
+}
+
+input[type=range][class=mbarT2]::-ms-fill-upper {
+    /*进度条未填充的部分*/
+    height: 22px;
+    border-radius: 10px;
+    background:rgba(255,255,255,0.51);;
+	
+}
+
+input[type=range][class=mbarT2]:focus::-ms-fill-lower {
+    background: rgba(255,255,255,0.51);
+}
+
+input[type=range][class=mbarT2]:focus::-ms-fill-upper {
+    background: rgba(255,255,255,0.51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ctimeT2 {
+	margin-top: -18px;
+	margin-left: 210px;
+	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.lastT2 {
+	height: 15px;
+	margin-top: 140px;
+	margin-left: 45px;
+}
+.lastT2:hover {
+	opacity: 0.7;
+	background-image: url(../picture/last-1.png);
+}
+.lastT2:active {
+	opacity: 1;
+}
+.playT2 {
+	width: 15px;
+	height: 15px;
+	margin-top: 140px;
+	margin-left: 103px;
+	opacity: 0.3;
+}
+.playT2:hover {
+	opacity: 0.7;
+	background-image: url(../picture/play-1.png);
+}
+.playT2:active {
+	opacity: 1;
+}
+.pauseT2 {
+	width: 20px;
+	height: 20px;
+	margin-top: 138px;
+	margin-left: 103px;
+	opacity: 0.3;
+}
+.pauseT2:hover {
+	opacity: 0.7;
+	background-image: url(../picture/pause-1.png);
+}
+.pauseT2:active {
+	opacity: 1;
+}
+.nextT2 {
+	width: 18px;
+	margin-top: 132px;
+	margin-left: 150px;
+	opacity: 0.3;
+}
+.nextT2:hover {
+	opacity: 0.7;
+	background-image: url(../picture/next-1.png);
+}
+.nextT2:active {
+	opacity: 1;
+}
+.playmodeT2 {
+	width: 25px;
+	height: 25px;
+	margin-top: 100px;
+	margin-left: 200px;
+	opacity: 0.3;
+	display:none;
+}
+.voiceT2 {
+	width: 25px;
+	height: 25px;
+	margin-top: 23px;
+	margin-left: 225px;
+	opacity: 0.6;
+	display:none;
+}
+.optionT2 {
+	width: 30px;
+	height: 30px;
+	margin-top: -48px;
+	margin-left: 240px;
+	opacity: 0.3;
+	display:none;
+}
+.listbuttonT2 {
+	width: 30px;
+	height: 30px;
+	margin-top: 132px;
+	margin-left: -10px;
+	opacity: 0.3;
+}
+.changebgT2 {
+	width: 80px;
+	height: 80px;
+	margin-top: -95px;
+	margin-left: -10px;
+	background-image: none;
+	font-size: 100px;
+	color: red;
+	opacity: 1;
+	transition: 0.3s
+}
+.changebg1T2 {
+	width: 80px;
+	height: 80px;
+	margin-top: -95px;
+	margin-left: -10px;
+	background-image: none;
+	font-size: 100px;
+	color: white;
+	opacity: 1;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+	transition: 0.3s
+}
+.changebgT2:hover {
+	opacity: 1;
+	color: white;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+	background-image: none;
+}
+.snameT2 {
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 200px;
+	height: 20px;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+	padding-top: 0px;
+	font-weight: 800;
+	font-size: 18px;
+	opacity: 1;
+}
+
+.lyric{
+	color: white;
+	position: fixed;
+	margin-left: 30%;
+	margin-top: 40%;
+	-webkit-animation: neon0 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon0 1.5s ease-in-out infinite alternate;
+	animation: neon0 1.5s ease-in-out infinite alternate;
+	width: 600px;
+	height: 80px;
+	font-size:25px;
+	
+}
+
+.lyrictemp{
+	color: white;
+	position: fixed;
+	margin-left: 15%;
+	margin-top: 20%;
+	border-style: solid;
+	width: 800px;
+	height: 80px;
+	display: none;
+}
